@@ -25,10 +25,15 @@
 <section class="header"><!--Header Section Starts-->
 
     <nav>
+
         <a href="index.html"><img src="img/logo.png"></a>
-        <div class="nav-links">
-            <i class="fa fa-times"></i>
-            <ul>
+
+        <div class="nav-links" id="navLinks">
+
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul><!--navigation-menu-links-->
+
                 <li>
                     <a href="index.html">HOME</a>
                 </li>
@@ -44,9 +49,13 @@
                 <li>
                     <a href="contact.html">CONTACT</a>
                 </li>
-            </ul>
+
+            </ul><!--navigation-menu-links-->
+
         </div>
-        <i class="fa fa-bars"></i>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
     </nav>
 
     <div class="text-box">
