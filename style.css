@@ -164,6 +164,7 @@ p{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 h3{
@@ -182,3 +183,25 @@ h3{
     }
 }
 /*--Styling-Course-Section-Ends--*/
+
+/*--Styling-Campus-Section--*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col img{
+    width: 100%;
+}
+
+/*--Styling-Campus-Section-Ends--*/
