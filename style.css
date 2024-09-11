@@ -260,4 +260,14 @@ h3{
     border-radius: 10px;
 }
 
+.facilities-col p{
+    padding: 0;
+}
+
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
 /*--Facilities-Section--*/
