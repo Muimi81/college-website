@@ -450,4 +450,11 @@ h3{
     margin: 30px 0;
 }
 
+.blog-left p{
+    color: #2a2a2a;
+    padding: 0;
+    line-height: 35px;
+    font-weight: 300;
+    font-size: 18px;
+
 /*--about-page--*/
